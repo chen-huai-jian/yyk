@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/me/me",
+    "pages/homepage/homepage",
+    "pages/fenlei/fenlei",
+    "pages/mendian/mendian",
+    "pages/shoping_cart/shoping_cart",
+    "pages/me_ma/me_ma"
+  ],
+  "window": {
+    "backgroundColor": "#000000",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFF5EE",
+    "navigationBarTitleText": "掌上优衣库",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#FFFFFF",
+    "color": "#FFFFFF",
+    "backgroundColor": "#FF0000",
+    "list": [
+      {
+        "pagePath": "pages/homepage/homepage",
+        "text": "首页",
+        "iconPath": "images/icon/shouye1-copy.png",
+        "selectedIconPath": "images/icon/shouye1-copy.png"
+      },
+      {
+        "pagePath": "pages/fenlei/fenlei",
+        "text": "分类",
+        "iconPath": "images/icon/fenlei.png",
+        "selectedIconPath": "images/icon/fenlei.png"
+      },
+      {
+        "pagePath": "pages/mendian/mendian",
+        "text": "门店入口",
+        "iconPath": "images/icon/mendian.png",
+        "selectedIconPath": "images/icon/mendian.png"
+      },
+      {
+        "pagePath": "pages/shoping_cart/shoping_cart",
+        "text": "购物车",
+        "iconPath": "images/icon/gouwuchezhengpin.png",
+        "selectedIconPath": "images/icon/gouwuchezhengpin.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的账户",
+        "iconPath": "images/icon/weibiaoti2fuzhi12.png",
+        "selectedIconPath": "images/icon/weibiaoti2fuzhi12.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
